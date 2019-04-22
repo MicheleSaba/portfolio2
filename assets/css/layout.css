@@ -1666,12 +1666,11 @@ br.clear {
 	ul.icons {
 		cursor: default;
 		list-style: none;
-		padding-left: 0;
 	}
 
 		ul.icons li {
 			display: inline-block;
-			padding-left: 0;
+           
 		}
 
 		ul.icons a {
@@ -1680,7 +1679,9 @@ br.clear {
 			height: 2em;
 			line-height: 2em;
 			text-align: center;
-			border: 0;
+            border: 0;
+            padding: 10px;
+           
 		}
 
 /* Form */
@@ -1979,7 +1980,7 @@ br.clear {
 				-moz-transition: none;
 				-webkit-transition: none;
 				-ms-transition: none;
-				transition: none;
+                transition: none; 
 			}
 
 				#nav ul li a span {
